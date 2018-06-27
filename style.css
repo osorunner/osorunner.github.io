@@ -1,5 +1,5 @@
 html {
-    background: url(ash-background.jpg) no-repeat center center fixed;
+    background-image: url(images/ash-background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -10,7 +10,7 @@ html {
 
 @media only screen and (max-device-width: 720px) {
     html { 
-        background-image: url(images/us-bali.jpg) no-repeat center center fixed;
+        background-image: url(images/us-bali.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

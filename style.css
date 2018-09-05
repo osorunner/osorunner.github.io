@@ -6,15 +6,15 @@ html {
     background-size: cover;
 }
 
-@media only screen and (max-device-width: 1920px) {
+@media only screen and (max-device-width: 720px) {
     html { 
-        background: url(jack-background.jpg) no-repeat center center fixed;
+        background-image: url(images/us_bali.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         height: 100%;
-        overflow: hidden;
+        
     
     }
 

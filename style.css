@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background: url(images/ash-background.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -22,10 +26,77 @@ html {
         
     
     }
-
     
     
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
 
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+a:hover {
+color: #6633ff;    
+}
+
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name {
+    display: none;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    transition: all .5s;
+}
+
+.nav a:hover {
+    color: white
+}
+
+@media screen and (min-width: 720px) {
+    .flex {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    
+    .nav {
+        max-width: 1200px;
+    }
+    
+    .nav .name {
+        display: block;
+        margin-right: auto;
+        color: white;
+    }
+}
 

@@ -3,7 +3,7 @@
 }
 
 html {
-    background: url(https://s3-us-west-1.amazonaws.com/onedare.com/images/ash-background.jpg) no-repeat center center; 
+    background: url(https://s3-us-west-1.amazonaws.com/onedare.com/images/ash-background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,7 @@ html {
 
 @media only screen and (max-device-width: 1080px) and (max-device-height: 1920px) {
     html {
-        background: url(https://s3-us-west-1.amazonaws.com/onedare.com/images/us-bali.jpg) no-repeat center center;
+        background: url(https://s3-us-west-1.amazonaws.com/onedare.com/images/us-bali.jpg) no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;

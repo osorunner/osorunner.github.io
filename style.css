@@ -3,18 +3,18 @@
 }
 
 html {
-    background: url(images/ash-background.jpg) no-repeat center center;
+    background: url(images/ash-background.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
     height: 100%;
-   
+
 }
 
 @media only screen and (max-device-width: 1080px) and (max-device-height: 1920px) {
-    html { 
+    html {
         background: url(images/us-bali.jpg) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
@@ -22,12 +22,12 @@ html {
         -o-background-size: cover;
         height: 100%;
         width: 100%;
-       
-        
-    
+
+
+
     }
-    
-    
+
+
 }
 
 body {
@@ -43,8 +43,9 @@ a {
     text-decoration: none;
     color: #0499ff;
 }
+
 a:hover {
-color: #6633ff;    
+    color: #6633ff;
 }
 
 .main-nav {
@@ -88,15 +89,14 @@ color: #6633ff;
         justify-content: space-around;
         margin: 0 auto;
     }
-    
+
     .nav {
         max-width: 1200px;
     }
-    
+
     .nav .name {
         display: block;
         margin-right: auto;
         color: white;
     }
 }
-
